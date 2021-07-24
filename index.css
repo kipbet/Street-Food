@@ -9,14 +9,18 @@ a{
     min-width: 100%;
     min-height: 50%;
 }
+
+/* eat together */
 #eat-together{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    min-width: 100%;
 }
 #eat-together>img{
     float: left;
-    width: 50%;
+    min-width: 50%;
+    object-fit: contain;
 }
 #eat-text{
     margin-top: 25%;
