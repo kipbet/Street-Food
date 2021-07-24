@@ -7,25 +7,39 @@ a{
     justify-content: space-evenly;
     overflow: visible;
     min-width: 100%;
-    min-height: 50%;
 }
 
 /* eat together */
 #eat-together{
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     min-width: 100%;
+    margin: 0;
 }
 #eat-together>img{
     float: left;
-    min-width: 50%;
+    width: 50%;
     object-fit: contain;
 }
 #eat-text{
     margin-top: 25%;
     margin-bottom: 25%;
-    margin-right: 25%;
     text-align: center;
-    text-indent: 3%;
+}
+#exploremenu{
+    max-width: 100%;
+    justify-items: auto;
+}
+#exploremenu div{
+    display: inline-table;
+    justify-content: space-evenly;
+}
+#exploremenu img{
+    overflow: visible;
+    position: bottom left;
+}
+#exploremenu>h6,#exploremenu>p{
+    float: right;
 }
