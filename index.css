@@ -33,41 +33,34 @@ a{
     display: flex;
     flex-direction: row;
     max-width: 100%;
-    text-align: center;
 }
 #row1 img,#row2 img{
     display: inline;
     width: 33.33%;
-    padding: 0;
     float: left;
-    margin-right: 0%;
+    bottom: 0;
+    margin-left: 0;
 }
 #row1 h6,#row2 h6{
     text-align: start;
-    margin-left: 25%;
+    margin-left: 20%;
     margin-bottom: 2%;
 }
 #row1 p,#row2 p{
+    display: inline-block;
     text-align: right;
-    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    text-align: center;
 }
 /* individual boxes: images */
-#img1{
-    width: 20%;
+#img1,#img2,#img3,#img4,#img5,#img6{
+    border-bottom-right-radius: 25%;
+    border-width: 25%;
+    position: relative;
+    overflow: visible;
 }
-#img2{
-    width: 20%;
+#cont{
+    margin-left: 45px;
+    overflow: visible;
 }
-#img3{
-    width: 20%;
-}
-#img4{
-    width: 20%;
-}
-#img5{
-    width: 20%;
-}
-#img6{
-    width: 20%;
-}
-/* text with images */
