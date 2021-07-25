@@ -28,18 +28,46 @@ a{
     margin-bottom: 25%;
     text-align: center;
 }
-#exploremenu{
-    max-width: 100%;
-    justify-items: auto;
-}
-#exploremenu div{
-    display: inline-table;
+#row1,#row2{
     justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    text-align: center;
 }
-#exploremenu img{
-    overflow: visible;
-    position: bottom left;
+#row1 img,#row2 img{
+    display: inline;
+    width: 33.33%;
+    padding: 0;
+    float: left;
+    margin-right: 0%;
 }
-#exploremenu>h6,#exploremenu>p{
-    float: right;
+#row1 h6,#row2 h6{
+    text-align: start;
+    margin-left: 25%;
+    margin-bottom: 2%;
 }
+#row1 p,#row2 p{
+    text-align: right;
+    margin-top: 5px;
+}
+/* individual boxes: images */
+#img1{
+    width: 20%;
+}
+#img2{
+    width: 20%;
+}
+#img3{
+    width: 20%;
+}
+#img4{
+    width: 20%;
+}
+#img5{
+    width: 20%;
+}
+#img6{
+    width: 20%;
+}
+/* text with images */
