@@ -32,7 +32,7 @@ a{
     justify-content: space-evenly;
     display: flex;
     flex-direction: row;
-    max-width: 100%;
+    min-width: 100%;
 }
 #row1 img,#row2 img{
     display: inline;
@@ -56,11 +56,4 @@ a{
 /* individual boxes: images */
 #img1,#img2,#img3,#img4,#img5,#img6{
     border-bottom-right-radius: 25%;
-    border-width: 25%;
-    position: relative;
-    overflow: visible;
-}
-#cont{
-    margin-left: 45px;
-    overflow: visible;
 }
