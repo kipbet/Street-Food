@@ -57,3 +57,22 @@ a{
 #img1,#img2,#img3,#img4,#img5,#img6{
     border-bottom-right-radius: 25%;
 }
+#hotdeals{
+    background-color: #C9ECB5;
+    display: inline-block;
+}
+#himages{
+    width: 50%;
+}
+#himages img{
+    width: 35%;
+    align-content: center;
+}
+#htext{
+    display: inline;
+    float: right;
+}
+
+#contactus{
+    
+}
