@@ -84,9 +84,9 @@ a{
     clear: both;
     background-color: #FFD77C;
     text-align: center;
-    margin: 0;
+    margin-bottom: 15px;
 }
-button{
+#b2{
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -110,4 +110,9 @@ footer{
 }
 #b3{
     margin-top: 55px;
+    background-color: #6CB840;
+}
+#ftwo{
+    border-left: dashed;
+    border-collapse: collapse;
 }
