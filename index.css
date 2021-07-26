@@ -105,4 +105,8 @@ footer{
     display: flex;
     flex-direction: row;
     flex: 25%;
+    justify-content: space-evenly;
+}
+#b3{
+    margin-top: 55px;
 }
