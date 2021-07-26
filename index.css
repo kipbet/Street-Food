@@ -69,10 +69,32 @@ a{
     text-align: center;
 }
 #hotdeals{
+    margin-bottom: 0;
     background-color: #C9ECB5;
     height: auto;
+}
+#himages p{
+    margin-left: 15px;
 }
 
 #contactus{
     clear: both;
+    background-color: #FFD77C;
+    text-align: center;
+    margin-top: 0;
+}
+button{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #6CB840;
+}
+input{
+    border-radius: 35%;
+    -webkit-border-radius: 35%;
+    -moz-border-radius: 35%;
+    -ms-border-radius: 35%;
+    -o-border-radius: 35%;
 }
