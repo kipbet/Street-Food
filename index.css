@@ -1,3 +1,6 @@
+body{
+    margin: 0;
+}
 a{
     text-decoration-line: none;
 }
@@ -97,4 +100,9 @@ input{
     -moz-border-radius: 35%;
     -ms-border-radius: 35%;
     -o-border-radius: 35%;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    flex: 25%;
 }
