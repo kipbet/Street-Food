@@ -116,3 +116,25 @@ footer{
     border-left: dashed;
     border-collapse: collapse;
 }
+#sfood{
+    margin-left: 15px;
+}
+#sfood h1{
+    text-align: left;
+}
+#sfood p{
+    text-justify: kashida;
+    margin-right: 75%;
+}
+#b1{
+    border-radius: 75%;
+    -webkit-border-radius: 75%;
+    -moz-border-radius: 75%;
+    -ms-border-radius: 75%;
+    -o-border-radius: 75%;
+    border-left: 29px;
+    background-color:#6CB840 ;
+}
+#exploremenu h1{
+    text-align: center;
+}
